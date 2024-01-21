@@ -14,9 +14,11 @@ Genel olarak Bu Java programı, okul yönetim sistemini temsil eden dört ana s�
 - Öğrenci kayıt yaparken, bölümü doğru girilmeli (ders kayıtta hangi bölümle kayıt yapılmışsa o bölüm) ve ardından enter a basıp derslerin gelmesini sağlamalı daha sonra kaydet demelisiniz.
 
 ----------------------
-# SINIFLAR
--AnaMenü sınıfı, programın ana menüsünü temsil eder ve kullanıcıya ders kaydı yapma öğretmen kaydı yapma ve öğrenci kaydı yapma seçenekleri sunar. Kullanıcı, bu menüler aracılığıyla ders, öğretmen ve öğrenci bilgilerini girebilir. 
+# SINIFLAR HAKKINDA GENEL BİLGİ
+- AnaMenü sınıfı, programın ana menüsünü temsil eder ve kullanıcıya ders kaydı yapma öğretmen kaydı yapma ve öğrenci kaydı yapma seçenekleri sunar. Kullanıcı, bu menüler aracılığıyla ders, öğretmen ve 
+  öğrenci bilgilerini girebilir. 
 
--DERS ÖĞRETMEN VE ÖĞRENCİ bilgileri, sırasıyla "öğretmen", "Ogrenci" ve "Ders" sınıfları tarafından çekilir.
+- "DERS", "ÖĞRETMEN" VE "ÖĞRENCİ" bilgileri, sırasıyla "Ders", "öğretmen" ve "Ogrenci"  sınıfları tarafından düzene uygun çekilir.
 
--"DersMenü", "OgrenciMenü" ve "ÖğretmenMenü" sınıfları, kullanıcının ders, öğretmen ve öğrenci bilgilerini girmesini, araştırmasını ve tabloda göstermesini sağlar ve bu bilgileri CSV dosyaları aracılığı ile yapar. 
+-"DersMenü", "OgrenciMenü" ve "ÖğretmenMenü" sınıfları, kullanıcının ders, öğretmen ve öğrenci bilgilerini girmesini, araştırmasını ve tabloda göstermesini sağlar ve bu bilgileri CSV dosyaları aracılığı ile 
+  yapar. 
