@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OgrenciMenü">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="671" height="489"/>
+    </constraints>
+    <properties>
+      <background color="-5381889"/>
+      <foreground color="-1723333"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d148c" class="javax.swing.JButton" binding="btn_Geri">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Geri Dön"/>
+          <toolTipText value="Ana MenüyeDönmek İçin Tıklayınız"/>
+        </properties>
+      </component>
+      <component id="f4ae1" class="javax.swing.JTextField" binding="txAd">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <toolTipText value="Öğrenci Adını Giriniz"/>
+        </properties>
+      </component>
+      <component id="85578" class="javax.swing.JTextField" binding="txS">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <toolTipText value="Öğrencinin Soyadını Giriniz"/>
+        </properties>
+      </component>
+      <component id="33bb8" class="javax.swing.JComboBox" binding="cmbSnf">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+          </model>
+          <toolTipText value="Öğrencinin Sınıf Seçiniz"/>
+        </properties>
+      </component>
+      <component id="7afe5" class="javax.swing.JTextField" binding="txbolum">
+        <constraints>
+          <grid row="6" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="6" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="true"/>
+          <foreground color="-16777216"/>
+          <toolTipText value="Bölüm girdikten sonra enter a basınız"/>
+        </properties>
+      </component>
+      <hspacer id="3a051">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="b8489" class="javax.swing.JButton" binding="btKyt">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KAYIT OL"/>
+          <toolTipText value="KAYIT OLMAK İÇİN TIKLAYINIZ"/>
+        </properties>
+      </component>
+      <hspacer id="e6691">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b70ab">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="280f8" class="javax.swing.JLabel" binding="lblogrNo">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Öğrenci No"/>
+        </properties>
+      </component>
+      <component id="9eba4" class="javax.swing.JLabel" binding="lblSoyad">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Soyad"/>
+        </properties>
+      </component>
+      <component id="e50a4" class="javax.swing.JLabel" binding="lblSınıf">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Sınıf"/>
+        </properties>
+      </component>
+      <component id="b3969" class="javax.swing.JLabel" binding="lblBolum">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Bölüm"/>
+        </properties>
+      </component>
+      <component id="9cfd2" class="javax.swing.JComboBox" binding="cmDers">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <model/>
+          <toolTipText value="Ders Seçiniz"/>
+        </properties>
+      </component>
+      <component id="b913f" class="javax.swing.JLabel" binding="lbDers">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Ders"/>
+        </properties>
+      </component>
+      <component id="b6514" class="javax.swing.JLabel" binding="lblAd">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Ad"/>
+        </properties>
+      </component>
+      <component id="7f395" class="javax.swing.JLabel" binding="lbm">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15781854"/>
+          <font name="Arial Black" size="22"/>
+          <foreground color="-15781854"/>
+          <text value="Öğrenci Kayıt Sayfası"/>
+        </properties>
+      </component>
+      <component id="44778" class="javax.swing.JTextField" binding="txOn">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-16777216"/>
+          <toolTipText value="Öğrenci No'su Giriniz"/>
+        </properties>
+      </component>
+      <component id="75217" class="javax.swing.JTextField" binding="txtSearch">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ec640" class="javax.swing.JLabel" binding="lblAra">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Öğrenci Arama (NO)"/>
+        </properties>
+      </component>
+      <component id="8e7fb" class="javax.swing.JTable" binding="tblOgr">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="1c583" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bookman Old Style" size="10"/>
+          <foreground color="-1768704"/>
+          <text value="(BÖLÜMÜ GİRDİKTEN SONRA ENTER'A BASINIZ)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
