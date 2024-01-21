@@ -20,5 +20,6 @@ Genel olarak Bu Java programı, okul yönetim sistemini temsil eden dört ana s�
 
 - "DERS", "ÖĞRETMEN" VE "ÖĞRENCİ" bilgileri, sırasıyla "Ders", "öğretmen" ve "Ogrenci"  sınıfları tarafından düzene uygun çekilir.
 
--"DersMenü", "OgrenciMenü" ve "ÖğretmenMenü" sınıfları, kullanıcının ders, öğretmen ve öğrenci bilgilerini girmesini, araştırmasını ve tabloda göstermesini sağlar ve bu bilgileri CSV dosyaları aracılığı ile 
-  yapar. 
+- "DersMenü", "OgrenciMenü" ve "ÖğretmenMenü" sınıfları, kullanıcının ders, öğretmen ve öğrenci bilgilerini 
+   girmesini, araştırmasını ve tabloda göstermesini sağlar ve bu bilgileri CSV dosyaları aracılığı ile 
+   yapar. 
