@@ -6,7 +6,7 @@ Genel olarak Bu Java programı, okul yönetim sistemini temsil eden dört ana s�
 
 ----------------------
 # ÇALIŞMA PRENSİBİ
-- Uygulamayı çalıştırdınız ardından anamenü'yü açtınız ve istediğiniz seçimi yapmanız için butanlar mevcuttur o butonlara tıklayarak yapabilirsiniz. Daha sonra seçtiğiniz kayıtta ana menüye dönmek için ayrı buton mevcuttur. Son olarak da kayıt et butonları da bütün verileri girdikten sonra belirtilen csv dosyasına kayıt sağlayabilirsiniz. Kayıtları ilgili menülerde arama yaparak da tabloda kontrol edebilir siniz
+- Uygulamayı çalıştırdınız ardından anamenü'yü açtınız ve istediğiniz seçimi yapmanız için butanlar mevcuttur o butonlara tıklayarak yapabilirsiniz. Daha sonra seçtiğiniz kayıtta ana menüye dönmek için ayrı buton mevcuttur. Son olarak da kayıt et butonları bütün verileri girdikten sonra belirtilen ilgili csv dosyasına kayıt sağlayabilirsiniz. Kayıtları ilgili menülerde arama yaparak da tabloda kontrol edebilir siniz.
 
 ----------------------
 # DİKKAT
